@@ -1,7 +1,7 @@
 all: compile clean
 
 compile:
-	latexmk -pdf thesis.tex
+	latexmk -pdf main.tex
 clean:
 	latexmk -c
 
